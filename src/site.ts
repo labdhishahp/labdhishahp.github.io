@@ -17,7 +17,7 @@ export const nav = [
   { label: "Writing", path: "writing/", key: "writing" },
 ] as const;
 
-/** Prefix an internal path with the deployment base (/PORTFOLIO). */
+/** Prefix an internal path with the deployment base (currently the site root). */
 export function url(path = ""): string {
   const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   return `${base}/${path.replace(/^\//, "")}`;

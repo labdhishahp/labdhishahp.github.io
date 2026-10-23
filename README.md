@@ -1,4 +1,4 @@
-# labdhishahp.github.io/PORTFOLIO
+# labdhishahp.github.io
 
 My personal site. Static, built with [Astro](https://astro.build), no client-side JavaScript.
 
@@ -21,7 +21,7 @@ The résumé is `public/resume.pdf` — replace that file to update it.
 
 ```sh
 npm install
-npm run dev      # http://localhost:4321/PORTFOLIO/
+npm run dev      # http://localhost:4321/
 npm run build    # static output in dist/
 ```
 
